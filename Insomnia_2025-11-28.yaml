@@ -1,0 +1,718 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1756466370098
+  modified: 1756466370098
+  description: ""
+collection:
+  - name: Biblioteca
+    meta:
+      id: fld_fb57a5cfec0642a295d732cc51516778
+      created: 1756466524013
+      modified: 1756476930199
+      sortKey: -1756466524013
+      description: ""
+    children:
+      - name: Usuarios
+        meta:
+          id: fld_a4cb446691294ff9b7261fcd4675f235
+          created: 1756466582340
+          modified: 1756466582340
+          sortKey: -1756466582340
+          description: ""
+      - name: Livros
+        meta:
+          id: fld_e18c71cf7cb44fc8a0cd6416f93aacd4
+          created: 1756485921960
+          modified: 1756485921960
+          sortKey: -1756466553176.5
+          description: ""
+  - name: Musica
+    meta:
+      id: fld_cf54021c0211467391ea08f97f23cad4
+      created: 1757080035188
+      modified: 1757080035188
+      sortKey: -1757080035189
+      description: ""
+    children:
+      - name: Playlist_musica
+        meta:
+          id: fld_f5f3f3b6d1d34a6298d754d72dbfdee1
+          created: 1757080174789
+          modified: 1757080174789
+          sortKey: -1757080174789
+          description: ""
+        children:
+          - name: Musicas
+            meta:
+              id: fld_48704bea51f944a7acd4651dcc643b3b
+              created: 1757081313229
+              modified: 1758288423021
+              sortKey: -1757080949253
+              description: ""
+      - name: Playlist
+        meta:
+          id: fld_b5f1ade01ea049c680e0c313d22a0d11
+          created: 1757081347544
+          modified: 1757081347544
+          sortKey: -1757080143005.5
+          description: ""
+      - name: Usuario
+        meta:
+          id: fld_b39277d3a0f841d5af0d69aff65180bb
+          created: 1757081370066
+          modified: 1757092445951
+          sortKey: -1757080153351.75
+          description: ""
+  - name: Hotel
+    meta:
+      id: fld_5b9d309aa5a54d84b9b0c0e21fbfb363
+      created: 1757702711966
+      modified: 1757702711966
+      sortKey: -1757702711966
+      description: ""
+    children:
+      - name: cliente
+        meta:
+          id: fld_4159000a57aa49a6a5c54c0cca825268
+          created: 1757702958780
+          modified: 1757702958780
+          sortKey: -1757702958780
+          description: ""
+      - name: Reserva
+        meta:
+          id: fld_e08b6292e15e4aba8b1fd1a03d920cd2
+          created: 1757702999549
+          modified: 1757702999549
+          sortKey: -1757702999549
+          description: ""
+      - name: Quarto
+        meta:
+          id: fld_5bc475e1c00c4ede87bf4a83c30bc2d6
+          created: 1757703028417
+          modified: 1757703028417
+          sortKey: -1757703028417
+          description: ""
+  - name: Loja
+    meta:
+      id: fld_6686a408e2af48528e5e6f7d6dc3fb56
+      created: 1758288083091
+      modified: 1758288083091
+      sortKey: -1758288083091
+      description: ""
+    children:
+      - name: Clientes
+        meta:
+          id: fld_13b09aadbace4b649932822f7fe2ce95
+          created: 1758288364766
+          modified: 1758288364766
+          sortKey: -1758288364767
+          description: ""
+      - name: Pedidos
+        meta:
+          id: fld_a2818d7babd64810bc54ba2fc2e1bd5a
+          created: 1758288377426
+          modified: 1758288377426
+          sortKey: -1758288377426
+          description: ""
+      - name: Produtos
+        meta:
+          id: fld_8d8bd8fd684c427e981abd3e2ccca6d1
+          created: 1758288393814
+          modified: 1758288393814
+          sortKey: -1758288393814
+          description: ""
+  - name: Locadora
+    meta:
+      id: fld_e236ad7b84774d5b8a6f1860cf1c78ed
+      created: 1758893500670
+      modified: 1760706080020
+      sortKey: -1758893500670
+      description: ""
+  - name: Teste banco
+    meta:
+      id: fld_f3361d13aed64dc2aad7da8fcb68ad70
+      created: 1760703678286
+      modified: 1760703678286
+      sortKey: -1760703678286
+      description: ""
+  - name: Vida+
+    meta:
+      id: fld_f8c73a800cdb4e9f97abc9f12ac7362f
+      created: 1762524769639
+      modified: 1763140314586
+      sortKey: -1762524769639
+      description: ""
+    children:
+      - name: consultas
+        meta:
+          id: fld_705dd619cce440cc9592551e658bfd85
+          created: 1762524871405
+          modified: 1762524871405
+          sortKey: -1762524871405
+          description: ""
+      - name: pacientes
+        meta:
+          id: fld_aa7630d90346440b8cab59e61a35ebea
+          created: 1762524912050
+          modified: 1763140284433
+          sortKey: -1762524912050
+          description: ""
+      - name: usuarios
+        meta:
+          id: fld_44ae570b8623428097c59a9730893b83
+          created: 1762525545069
+          modified: 1762525545069
+          sortKey: -1762525545069
+          description: ""
+  - name: Eventos
+    meta:
+      id: fld_3a4856cc63f941d7bfd7dc5a00eb4f67
+      created: 1763140303741
+      modified: 1763140317352
+      sortKey: -1763140303741
+      description: ""
+    children:
+      - name: fornecedores
+        meta:
+          id: fld_042e20c4bba54a958d0ce95834e4ad10
+          created: 1764100684274
+          modified: 1764100695289
+          sortKey: -1764100684474
+          description: ""
+      - name: eventos
+        meta:
+          id: fld_7448a2469bb940a4a51ea69f2ba4faaa
+          created: 1764100724761
+          modified: 1764100724761
+          sortKey: -1764100724761
+          description: ""
+      - name: contratacoes
+        meta:
+          id: fld_13620ce187144cd7b8c4abde92740671
+          created: 1764100744763
+          modified: 1764100744763
+          sortKey: -1764100744763
+          description: ""
+  - name: Cantina
+    meta:
+      id: fld_da387dbf6f324d64b22659c531970e9a
+      created: 1764335216846
+      modified: 1764335216846
+      sortKey: -1764335216846
+      description: ""
+    children:
+      - name: alunos
+        meta:
+          id: fld_cc6d99a6839c432daf373a20fbfe4bb1
+          created: 1764335234362
+          modified: 1764335234362
+          sortKey: -1764335234362
+          description: ""
+        children:
+          - url: http://localhost:3000/atualizar/alunos
+            name: atualizar
+            meta:
+              id: req_3b8ba77686a94d998bc9b710052e2692
+              created: 1764335283299
+              modified: 1764337052300
+              isPrivate: false
+              description: ""
+              sortKey: -1764335283299
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"id": "4",
+                	"nome": "reenye",
+                	"turma": "2 EM B"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/excluir/alunos/5
+            name: excluir
+            meta:
+              id: req_23b0f2555b0c4d1194c5e8a96111fb2e
+              created: 1764335296921
+              modified: 1764336690542
+              isPrivate: false
+              description: ""
+              sortKey: -1764335296921
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/cadastrar/alunos
+            name: cadastrar
+            meta:
+              id: req_422f8cd987ad457f8c2e74cdb39780da
+              created: 1764335303469
+              modified: 1764336676710
+              isPrivate: false
+              description: ""
+              sortKey: -1764335303469
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"nome": "Robson",
+                	"turma": "2 EM A B"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/buscar/alunos/1
+            name: buscar
+            meta:
+              id: req_52a6d5cadaf843e884cfb2ed7d4b8ca5
+              created: 1764335306374
+              modified: 1764336303198
+              isPrivate: false
+              description: ""
+              sortKey: -1764335306374
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/listar/alunos
+            name: listar
+            meta:
+              id: req_50d08ae2f1494d80b8793a58c1c519e4
+              created: 1764335308700
+              modified: 1764336247921
+              isPrivate: false
+              description: ""
+              sortKey: -1764335308700
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: produtos
+        meta:
+          id: fld_ffc6052c91f54f118b039e2b677829df
+          created: 1764335249216
+          modified: 1764335249216
+          sortKey: -1764335249216
+          description: ""
+        children:
+          - url: http://localhost:3000/atualizar/produtos
+            name: atualizar
+            meta:
+              id: req_ee455d3c3fbd4c15a81ca99bf663064b
+              created: 1764335326052
+              modified: 1764337749302
+              isPrivate: false
+              description: ""
+              sortKey: -1764335326052
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"id": "1",
+                	"nome": "Bolo",
+                	"valor": "45.00"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/excluir/produtos/1
+            name: excluir
+            meta:
+              id: req_6e9deb3b9f7c4b6cb74c0160281aee77
+              created: 1764335329194
+              modified: 1764337544242
+              isPrivate: false
+              description: ""
+              sortKey: -1764335329194
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/cadastrar/produtos
+            name: cadastrar
+            meta:
+              id: req_25362dd2bba24651969bb03184d4bca6
+              created: 1764335332391
+              modified: 1764337325627
+              isPrivate: false
+              description: ""
+              sortKey: -1764335332391
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"nome": "Bala",
+                	"valor": "1.00"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/buscar/produtos/1
+            name: buscar
+            meta:
+              id: req_ea0190595900487a82d58dca4903c542
+              created: 1764335334723
+              modified: 1764337202307
+              isPrivate: false
+              description: ""
+              sortKey: -1764335334723
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/listar/produtos
+            name: listar
+            meta:
+              id: req_58b8f9be6755416d9fa1e8b2752e8dc8
+              created: 1764335337175
+              modified: 1764337139858
+              isPrivate: false
+              description: ""
+              sortKey: -1764335337175
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: pedidos
+        meta:
+          id: fld_173efb4b15064ccc924d22fad49b46af
+          created: 1764335258939
+          modified: 1764335593813
+          sortKey: -1764335371458
+          description: ""
+        children:
+          - url: http://localhost:3000/faturamento
+            name: totalFat
+            meta:
+              id: req_f319ca20c3ca425eaf694aa0bb7e1596
+              created: 1764335345293
+              modified: 1764338897116
+              isPrivate: false
+              description: ""
+              sortKey: -1764335602164
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/gasto/aluno
+            name: totalGastpAluno
+            meta:
+              id: req_3ddfd20ea7fd4d09868d1adffef39281
+              created: 1764335347575
+              modified: 1764338853272
+              isPrivate: false
+              description: ""
+              sortKey: -1764335602064
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/pedido/produtos
+            name: totalPedProduto
+            meta:
+              id: req_7313ce65dc3f4b10a4b2e4e67542fed3
+              created: 1764335360678
+              modified: 1764338656276
+              isPrivate: false
+              description: ""
+              sortKey: -1764335601964
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/atualizar/pedidos
+            name: atualizar
+            meta:
+              id: req_4286a777bd9741de9e691fc9c6906468
+              created: 1764335362928
+              modified: 1764338530763
+              isPrivate: false
+              description: ""
+              sortKey: -1764335601864
+            method: PUT
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"id": "1",
+                	"data": "2025-10-07",
+                	"quantidade": "3",
+                	"id_aluno": "1",
+                	"id_produto": "1"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/excluir/pedidos/3
+            name: excluir
+            meta:
+              id: req_c504151300dc41b1831253259a3d334f
+              created: 1764335364433
+              modified: 1764338131587
+              isPrivate: false
+              description: ""
+              sortKey: -1764335601764
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/cadastrar/pedidos
+            name: cadastrar
+            meta:
+              id: req_57433972132b4d47b5bba64c5417aa43
+              created: 1764335366888
+              modified: 1764338777025
+              isPrivate: false
+              description: ""
+              sortKey: -1764335601664
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"data": "2025-12-06",
+                	"quantidade": "2",
+                	"id_aluno": "1",
+                	"id_produto": "3"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/buscar/pedidos/2
+            name: buscar
+            meta:
+              id: req_baf83e1f9d4940ccb44b34ae921bcfbc
+              created: 1764335369247
+              modified: 1764337858245
+              isPrivate: false
+              description: ""
+              sortKey: -1764335601564
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/listar/pedidos
+            name: listar
+            meta:
+              id: req_0ec2195b7c834ddab3dfe98b829bbf1a
+              created: 1764335371358
+              modified: 1764337806762
+              isPrivate: false
+              description: ""
+              sortKey: -1764335601464
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.1.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466384845
+    modified: 1756466384845
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466384670
+    modified: 1756466384670
+    isPrivate: false

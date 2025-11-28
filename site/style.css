@@ -1,0 +1,167 @@
+body {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background-color: #E8D4D4;
+    color: #4A2828;
+    height: 100%;
+}
+
+header {
+    background-color: #8B4049;
+    color: #F5E6E8;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.header-content {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-area img {
+    width: 70px;     
+    height: auto;    
+    border-radius: 0;
+    object-fit: contain;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #deb9be;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #D4A5A5;
+}
+
+section {
+    padding: 40px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background: #F5EAE8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 0 auto 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #8B4049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #A85963;
+    color: #FFF5F5;
+}
+
+thead th {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F5EAE8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #E8D4D4;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #4A2828;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #8B4049;
+    font-weight: 600;
+}
+
+.opcao {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 6px #D4A5A5;
+    box-sizing: border-box;
+    background: #FFF;
+}
+
+
+button {
+    background-color: #8B4049;
+    color: #F5E6E8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #A85963;
+    color: #FFF5F5;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}

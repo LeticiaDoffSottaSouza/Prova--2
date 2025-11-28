@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos - Lanches Cantina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <div class="logo-area">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Logo_SESI_vermelho.jpg">
+        </div>
+
+        <h1>Sistema Lanches Cantina</h1>
+
+        <nav>
+            <ul>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="alunos.html">Alunos</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Cadastro de Aluno</h2>
+        <form onsubmit="enviar()">
+            <label>Nome do Aluno:</label>
+            <input class="opcao" type="text" required>
+
+            <label>Turma:</label>
+            <input class="opcao" type="text" required>
+
+            <button type="submit">Cadastrar Aluno</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Lista de Alunos</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Turma</th>
+                    <th>Total de Compras</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Alice</td>
+                    <td>2 EM B</td>
+                    <td>2 compras</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Natalia</td>
+                    <td>2 EM A</td>
+                    <td>1 compra</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Pietra</td>
+                    <td>2 EM B</td>
+                    <td>1 compra</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<script>
+    function enviar() {
+        alert("Dados enviados com sucesso!");
+    }
+</script>
+
+</body>
+</html>

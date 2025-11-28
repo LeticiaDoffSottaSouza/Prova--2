@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos - Lanches Cantina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <div class="header-content">
+        <div class="logo-area">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Logo_SESI_vermelho.jpg">
+        </div>
+        <h1>Sistema Lanches Cantina</h1>
+        <nav>
+            <ul>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="alunos.html">Alunos</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Novo Pedido</h2>
+        <form onsubmit="enviar()">
+            <label>Data:</label>
+            <input class="opcao" type="datetime-local" required>
+
+            <label>Aluno:</label>
+            <select class="opcao" required>
+                <option value="">Selecione</option>
+                <option>Alice</option>
+                <option>Natalia</option>
+                <option>Pietra</option>
+            </select>
+
+            <label>Produto:</label>
+            <select class="opcao" required>
+                <option value="">Selecione</option>
+                <option>Bolo</option>
+                <option>Salgados</option>
+                <option>Suco</option>
+            </select>
+
+            <label>Quantidade:</label>
+            <input class="opcao" type="number" min="1" required>
+            <button type="submit">Registrar Pedido</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Pedidos Realizados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Data</th>
+                    <th>Aluno</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Total (R$)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>06/10/2025</td>
+                    <td>Alice</td>
+                    <td>Bolo</td>
+                    <td>2</td>
+                    <td>R$ 100,00</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>12/03/2024</td>
+                    <td>Pietra</td>
+                    <td>Salgados</td>
+                    <td>1</td>
+                    <td>R$ 30,00</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>09/11/2025</td>
+                    <td>Natalia</td>
+                    <td>Suco</td>
+                    <td>2</td>
+                    <td>R$ 20,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<script>
+    function enviar() {
+        alert("Pedido enviado com sucesso!");
+    }
+</script>
+
+</body>
+</html>
